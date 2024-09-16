@@ -1,0 +1,241 @@
+.section3 {
+    .section3-box {
+        height: 583px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+        padding: 48px 0 48px 0;
+
+        .section3-boy {
+            width: 42%;
+            height: 582px;
+            position: relative;
+
+            .section3-boy-img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .section3-pos-heart {
+                width: 144px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 1);
+                border-radius: 12px;
+                padding: 8px 12px 8px 12px;
+                gap: 8px;
+                position: absolute;
+                top: 73px;
+                left: 8px;
+
+                .section3-heart {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: rgba(255, 230, 229, 1);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .section3-heart-img {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+
+                .section3-heart-text {
+                    width: 86px;
+                    height: 48px;
+
+                    .section3-heart-text-p {
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: rgba(0, 0, 0, 1);
+
+                        .section3-heart-text-span {
+                            background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+                            background-clip: text;
+                            color: transparent;
+                        }
+                    }
+                }
+            }
+
+            .section3-pos-free {
+                width: 105px;
+                height: 48px;
+                padding: 8px 12px 8px 12px;
+                border-radius: 12px;
+                background-color: rgba(255, 255, 255, 1);
+                position: absolute;
+                top: 487px;
+                left: 340px;
+
+                .section3-free-p {
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+                    background-clip: text;
+                    color: transparent;
+
+                    .section3-free-span {
+                        color: rgba(0, 0, 0, 1);
+                    }
+                }
+            }
+        }
+
+        .section3-text-group {
+            width: 55%;
+            height: 340px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+            .section3-text-title {
+                font-family: 'Lora', sans-serif;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 81.92px;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            .section3-text-text {
+                width: 84%;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(75, 62, 101, 1);
+            }
+
+            .section3-btn {
+                width: 163px;
+                height: 56px;
+                border-radius: 64px;
+                padding: 16px 28px 16px 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 4px;
+                border: none;
+                background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+
+                .section3-btn-text {
+                    font-family: 'Poppins' sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 1);
+                }
+
+                .section3-btn-icon {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .section3 {
+        .section3-box {
+            height: 666px;
+            flex-direction: column;
+            gap: 32px;
+            padding: 32px 0 32px 0;
+
+            .section3-boy {
+                width: 100%;
+                height: 372.48px;
+                order: 1;
+
+                .section3-pos-heart {
+                    width: 114px;
+                    height: 38px;
+                    top: 73px;
+                    left: 9px;
+
+                    .section3-heart {
+                        width: 36px;
+                        height: 36px;
+
+                        .section3-heart-img {
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+
+                    .section3-heart-text {
+                        width: 70px;
+                        height: 38px;
+
+                        .section3-heart-text-p {
+                            font-size: 13px;
+                            line-height: 19.5px;
+
+                            .section3-heart-text-span {
+                                font-size: 12px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+
+                .section3-pos-free {
+                    width: 86px;
+                    height: 38px;
+                    top: 285px;
+                    left: 205px;
+
+                    .section3-free-p {
+                        font-size: 12px;
+                        line-height: 18px;
+
+                        .section3-free-span {
+                            font-size: 13px;
+                            line-height: 19.5px;
+                        }
+                    }
+                }
+
+            }
+
+            .section3-text-group {
+                width: 100%;
+                height: 263px;
+                align-items: center;
+
+                .section3-text-title {
+                    font-size: 32px;
+                    line-height: 40.96px;
+                }
+
+                .section3-text-text {
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 22.5px;
+                }
+
+                .section3-btn {
+                    width: 158px;
+
+                    .section3-btn-text {
+                        font-size: 15px;
+                        line-height: 22.5px;
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,208 @@
+.footer {
+    background-color: rgba(30, 8, 73, 1);
+
+    .footer-box {
+        height: 263px;
+        padding: 64px 0 64px 0;
+
+        .footer-text {
+            height: 190px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid rgba(161, 151, 180, 1);
+
+            .footer-yoga {
+                width: 20%;
+                height: 143px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                .footer-yoga-title {
+                    font-family: 'Lora', sans-serif;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 30.72px;
+                    background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%);
+                    background-clip: text;
+                    color: transparent;
+                }
+
+                .footer-yoga-text {
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(161, 151, 180, 1);
+                }
+            }
+
+            .footer-group {
+                width: 50%;
+                height: 119px;
+                display: flex;
+                justify-content: space-between;
+                align-self: flex-start;
+
+                .footer-piece {
+                    width: 27%;
+                    height: 119px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+
+                    .footer-group-title {
+                        font-family: 'Lora', sans-serif;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 30.72px;
+                        color: rgba(255, 255, 255, 1);
+                    }
+
+                    .footer-group-text {
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: rgba(161, 151, 180, 1);
+                    }
+                }
+            }
+        }
+
+        .footer-end {
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .footer-icons {
+                width: 16%;
+                height: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .footer-icon {
+                    width: 24px;
+                    height: 24px;
+
+                    .footer-icon-img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+
+        .footer-copyright {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+
+            .footer-copyright-img {
+                width: 13px;
+                height: 13px;
+            }
+
+            .footer-copyright-text {
+                font-family: 'Poppoins', sans-serif;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 19.5px;
+                color: rgba(161, 151, 180, 1);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .footer {
+        background-color: rgba(30, 8, 73, 1);
+
+        .footer-box {
+            height: 673px;
+            padding: 48px 0 32px 0;
+
+            .footer-text {
+                height: 516px;
+                flex-direction: column;
+                padding-bottom: 40px;
+                margin-bottom: 40px;
+
+                .footer-yoga {
+                    width: 68%;
+                    height: 120px;
+
+                    .footer-yoga-title {
+                        font-size: 20px;
+                        line-height: 25.6px;
+                    }
+
+                    .footer-yoga-text {
+                        font-size: 15px;
+                        line-height: 22.5px;
+                    }
+                }
+
+                .footer-group {
+                    width: 45%;
+                    height: 356px;
+                    flex-direction: column;
+
+                    .footer-piece {
+                        width: 100%;
+                        height: 92px;
+
+                        .footer-group-title {
+                            font-size: 20px;
+                            line-height: 25.6px;
+                        }
+
+                        .footer-group-text {
+                            font-size: 15px;
+                            line-height: 22.5px;
+                        }
+                    }
+                }
+            }
+
+            .footer-end {
+                height: 80px;
+                flex-direction: column;
+                align-items: center;
+
+                .footer-icons {
+                    width: 50%;
+                    height: 24px;
+
+                    .footer-icon {
+                        width: 24px;
+                        height: 24px;
+
+                        .footer-icon-img {
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+
+            .footer-copyright {
+                width: 75%;
+
+                .footer-copyright-img {
+                    width: 13px;
+                    height: 13px;
+                }
+
+                .footer-copyright-text {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}

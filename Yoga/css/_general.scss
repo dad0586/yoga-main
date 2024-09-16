@@ -1,0 +1,195 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgba(245, 240, 255, 1);
+    transition: all ease 0.5s;
+
+    &.darkmode {
+        background-color: rgba(20, 9, 42, 1);
+        transition: all ease 0.5s;
+
+        .header {
+            .header-box {
+                .header-links {
+                    transition: all ease 0.5s;
+
+                    .header-link {
+                        &:hover {
+                            background: linear-gradient(73.19deg, rgb(255, 82, 175) 11.6%, rgb(159, 83, 255) 83.86%);
+                            background-clip: text;
+                            color: transparent;
+                        }
+
+                        color: rgba(209, 192, 241, 1);
+                    }
+
+                    .header-daynight {
+                        transition: all ease 0.5s;
+                        background-color: transparent;
+
+                        .header-moonimg {
+                            display: none;
+                        }
+
+                        .header-sunimg {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section1 {
+            .section1-box {
+                .section1-title-text {
+                    .section1-title {
+                        color: rgba(209, 192, 241, 1);
+                    }
+
+                    .section1-text {
+                        color: rgba(160, 148, 184, 1);
+                    }
+
+                    .section1-group {
+                        .section1-group-part {
+                            color: rgba(209, 192, 241, 1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .section2 {
+            .section2-box {
+                .section2-title {
+                    .section2-01 {
+                        color: rgba(209, 192, 241, 1);
+                    }
+
+                    .section2-girl {
+                        background-color: rgba(55, 42, 81, 1);
+                    }
+                }
+
+                .section2-text-group {
+                    .section2-text {
+                        color: rgba(160, 148, 184, 1);
+                    }
+                }
+
+                .section2-btn {
+                    background-color: transparent;
+                }
+            }
+        }
+
+        .section3 {
+            .section3-box {
+                .section3-boy {
+                    .section3-pos-heart {
+                        background-color: rgba(55, 42, 81, 1);
+
+                        .section3-heart-text {
+                            .section3-heart-text-p {
+                                color: rgba(209, 192, 241, 1);
+                            }
+                        }
+                    }
+
+                    .section3-pos-free {
+                        background-color: rgba(55, 42, 81, 1);
+
+                        .section3-free-p {
+                            .section3-free-span {
+                                color: rgba(209, 192, 241, 1);
+                            }
+                        }
+                    }
+                }
+
+                .section3-text-group {
+                    .section3-text-title {
+                        color: rgba(209, 192, 241, 1);
+                    }
+
+                    .section3-text-text {
+                        color: rgba(160, 148, 184, 1);
+                    }
+                }
+            }
+        }
+
+        // Otaboy 
+ 
+        .section4-title { 
+            h1 { 
+                color: rgba(209, 192, 241, 1); 
+            } 
+            p { 
+                color: rgba(160, 148, 184, 1); 
+            } 
+        } 
+ 
+        .section5-card__title { 
+            h1 { 
+                color: rgba(209, 192, 241, 1); 
+            } 
+ 
+            span { 
+                background: linear-gradient(73.19deg, #FF52AF 11.6%, #9F53FF 83.86%); 
+                color: transparent; 
+                background-clip: text; 
+            } 
+        } 
+ 
+        .section5-mobile { 
+            h1 { 
+                color: rgba(209, 192, 241, 1); 
+            } 
+        }
+
+        .footer {
+            background-color: rgba(20, 9, 42, 1);
+        }
+    }
+}
+
+
+@media only screen and (max-width:376px) {
+
+    body {
+        max-width: 376px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+}
